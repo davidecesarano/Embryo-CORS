@@ -1,0 +1,31 @@
+{
+    "name": "davidecesarano/embryo-cors",
+    "type": "library",
+    "description": "PSR-15 to implement Cross-Origin Resource Sharing (CORS).",
+    "keywords": [
+        "php",
+        "psr-15",
+        "cors"
+    ],
+    "homepage": "https://github.com/davidecesarano/embryo-cors",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Davide Cesarano",
+            "homepage": "https://github.com/davidecesarano"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "davidecesarano/embryo-http": "dev-master",
+        "davidecesarano/embryo-middleware": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Embryo\\": "Embryo/"
+        }
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^0.12.89"
+    }
+}
