@@ -12,7 +12,6 @@ Using Composer:
 $ composer require davidecesarano/embryo-cors
 ```
 ## Usage
-You may quickly test this using the built-in PHP server going to http://localhost:8000.
 ```php
 use Embryo\CORS\CorsMiddleware;
 use Embryo\Http\Factory\{ResponseFactory, ServerRequestFactory};
