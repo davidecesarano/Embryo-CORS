@@ -40,5 +40,5 @@ $requestHandler = new RequestHandler([
 $request = (new ServerRequestFactory)->createServerRequestFromServer();
 $response = (new ResponseFactory)->createResponse(200);
 
-$response = $middleware->dispatch($request, $response);
+$response = $requestHandler->dispatch($request, $response);
 ```
